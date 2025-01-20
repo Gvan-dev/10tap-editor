@@ -132,7 +132,7 @@ export const RichText = ({
         ]}
         containerStyle={[
           editor.theme.webviewContainer,
-          { height: editor.dynamicHeight ? editorHeight : undefined , paddingHorizontal : 5 },
+          { height: editor.dynamicHeight ? editorHeight : undefined , paddingHorizontal : 5 ,  backgroundColor : "white"},
         ]}
         source={source}
         injectedJavaScript={injectedJavaScript}
